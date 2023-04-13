@@ -8,6 +8,7 @@ const open_icon = document.querySelector('.open-icon')
 const header_position = document.querySelector('.header_position')
 const color_text = Array.from(document.querySelectorAll('.color_text'))
 const moviing = document.querySelector('.moviing')
+const mov_res = document.querySelector('.mov_res')
 
 const hideMenu = () => {
     nav_links.style.cssText = `right:-200px;`
