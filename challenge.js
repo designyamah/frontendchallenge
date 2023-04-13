@@ -36,7 +36,7 @@ const Scroll_header = ()=>{
         moviing.style.cssText =`position:absolute;top:-50%`
     }
     else{
-        moviing.style.cssText =`position:absolute;top:15%;left:0;width:100%;height:70px`
+         mov_res.style.cssText =`position:absolute;top:15%;left:0;width:100%;height:70px;padding-top:40px;`
     }
     if(pixells > 5){
         header_position.style.cssText = `position:fixed;width:100%;z-index:2;`
